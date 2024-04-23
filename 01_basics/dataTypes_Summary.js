@@ -21,3 +21,19 @@ let myObj=
 const myFunction = function(){
     console.log("Hello World");
 }
+
+//+++++++++++++++++++++++++++++++++++++++
+/*stack Memory(use in Primitive) --> change in copy 
+
+Heap Memory use in (Non-Primitive) --> change in Original value
+*/
+
+let  myYouTubename = "Nagma's classes";
+
+let anothername = myYouTubename
+anothername = "chaiaurcode"
+ console.log(anothername);
+ console.log( myYouTubename);
+
+
+let 
