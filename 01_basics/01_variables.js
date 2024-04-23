@@ -14,7 +14,10 @@ console.log("Nagma Parween");
 console.log(accountId,accountEmail,accountPassword);
 
 console.table([accountId,accountEmail,accountPassword,accountCity])
+
+
 /*
 Prefer not to use Var
 beacuse of issue in block scope and functional scope
 */
+
