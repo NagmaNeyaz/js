@@ -27,13 +27,23 @@ const myFunction = function(){
 
 Heap Memory use in (Non-Primitive) --> change in Original value
 */
-
+/*
 let  myYouTubename = "Nagma's classes";
 
 let anothername = myYouTubename
 anothername = "chaiaurcode"
  console.log(anothername);
  console.log( myYouTubename);
+*/
 
+let userOne = {
+    email:"user@google.com",
+    upi:"user@ybl"
+}
 
-let 
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
